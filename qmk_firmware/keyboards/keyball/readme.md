@@ -53,6 +53,7 @@ See each directories for each keyboards in a table above.
 
     # Build Keyball44 firmware with "default" keymap
     $ make SKIP_GIT=yes keyball/keyball44:default
+    $ qmk compile -kb keyball/keyball44 -km via_heavymoon
 
     # Build Keyball61 firmware with "default" keymap
     $ make SKIP_GIT=yes keyball/keyball61:default
@@ -63,6 +64,7 @@ There are three keymaps provided at least:
 * `via` - Standard version with [Remap](https://remap-keys.app/) or VIA to change keymap
 * `test` - Easy-to-use version for checking operation at build time
 * `default` - Base version for creating your own customized firmware
+* `via_heavymoon` - via based heavymoon custom
 
 ## How to create your keymap
 
